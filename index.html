@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js" defer></script>
+   <title>Calculadora</title>
+</head>
+
+<body>
+   <div class="container">
+      <h1>Calculadora</h1>
+      <div class="calculadora">
+            <input type="text" id="visor" readonly>
+         <table>
+           <tr>
+            <td><button class="operadores" id="pocentagem" value="%"><i class="fa fa-percent"></i></button></td>
+            <td><button id="limpar-visor">C</button></td>
+            <td><button id="voltar"><i class="fa-solid fa-delete-left"></i></button></td>
+            <td><button id="divisao" value="&div;" class="operadores"><i class="fa-solid fa-divide"></i></button></td>
+           </tr>
+           <tr>
+            <td><button class="numeros" value="1">1</button></td>
+            <td><button class="numeros" value="2">2</button></td>
+            <td><button class="numeros" value="3">3</button></td>
+            <td><button id="multiplica" class="operado operadores" value="x"><i class="fa fa-times"></i></button></td>
+           </tr>
+           <tr>
+            <td><button class="numeros" value="4">4</button></td>
+            <td><button class="numeros" value="5">5</button></td>
+            <td><button class="numeros" value="6">6</button></td>
+            <td><button id="menos" class="operado operadores" value="-"><i class="fa fa-minus"></i></button></td>
+           </tr>
+           <tr>
+            <td><button class="numeros" value="7">7</button></td>
+            <td><button class="numeros" value="8">8</button></td>
+            <td><button class="numeros" value="9">9</i></button></td>
+            <td rowspan="2"><button id="mais" class="operado operadores" value="+"><i class="fa fa-plus"></i></button></td>
+           </tr>
+           <tr>
+            <td><button class="numeros" value="0">0</button></td>
+            <td><button id="vircula" class="numeros" value=",">,</button></td>
+            <td><button id="igual">=</button></td>
+           </tr>
+         </table>
+      </div>
+   </div>
+</body>
+
+</html>
